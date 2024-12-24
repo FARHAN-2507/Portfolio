@@ -1,0 +1,25 @@
+
+
+.contact-details {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #198754; /* Green color for icons */
+}
+
+.contact-item span {
+  font-size: 1.2rem;
+  color: #333;
+}

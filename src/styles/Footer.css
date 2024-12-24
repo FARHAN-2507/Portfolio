@@ -1,0 +1,54 @@
+.footer-container {
+  font-size: 1rem;
+  background-color: #343a40; /* Dark background */
+}
+
+.footer-container p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.footer-social-links {
+  margin: 10px 0;
+}
+
+.footer-social-links .social-link {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer-social-links .social-link:hover {
+  color: #198754; /* Green hover effect */
+}
+
+.footer-contact {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.footer-contact .contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.footer-contact .contact-item i {
+  margin-right: 8px;
+  color: #198754; /* Green icon color */
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    font-size: 0.85rem;
+  }
+
+  .footer-social-links .social-link {
+    font-size: 1.2rem;
+  }
+}

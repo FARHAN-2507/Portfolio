@@ -1,0 +1,78 @@
+/* Background Section Styling */
+.background-container {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .background-section {
+    margin-bottom: 30px;
+  }
+  
+  .background-section h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #797979;
+  }
+  
+  .background-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .background-section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .background-section ul li p {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  /* Skills Grid */
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .skill {
+    background-color: #198754;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+ 
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .background-section h3 {
+      font-size: 1.5rem;
+    }
+  
+    .background-section ul li {
+      font-size: 1.1rem;
+    }
+  }
+  

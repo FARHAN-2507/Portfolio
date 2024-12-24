@@ -1,0 +1,88 @@
+/* About Section Styling */
+.about-container {
+  padding: 60px 20px;
+}
+
+.about-details h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-details p {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.typing-text {
+  color: #d32f2f;
+}
+
+/* Icons Styling */
+.about-icons h4 {
+  margin-top: 20px;
+}
+
+.icons-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icons-row i {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.icons-row i:hover {
+  color: #d32f2f;
+}
+
+/* Profile Image Styling */
+.about-image {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .about-details h1 {
+    font-size: 2rem;
+  }
+
+  .about-container {
+    padding: 40px 15px;
+  }
+
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-details h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-details p {
+    font-size: 1rem;
+  }
+
+  .icons-row i {
+    font-size: 1.2rem;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+}
